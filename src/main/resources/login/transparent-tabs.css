@@ -1,0 +1,66 @@
+/* 透明TabPane样式 - 强制透明 */
+.transparent-tabpane {
+    -fx-background-color: transparent !important;
+}
+
+.transparent-tabpane .tab-content-area {
+    -fx-background-color: transparent !important;
+}
+
+.transparent-tabpane .tab-header-area {
+    -fx-background-color: rgba(255, 255, 255, 0.7) !important;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.transparent-tabpane .tab {
+    -fx-background-color: rgba(255, 255, 255, 0.5) !important;
+    -fx-background-radius: 5 5 0 0;
+    -fx-border-color: #8B6F47;
+    -fx-border-width: 1 1 0 1;
+    -fx-border-radius: 5 5 0 0;
+}
+
+.transparent-tabpane .tab:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.8) !important;
+    -fx-border-color: #8B6F47;
+    -fx-border-width: 2 2 0 2;
+}
+
+.transparent-tabpane .tab-header-background {
+    -fx-background-color: transparent !important;
+}
+
+/* 确保Tab内容区域完全透明 */
+.transparent-tabpane .tab-content-area .tab-pane {
+    -fx-background-color: transparent !important;
+}
+
+.transparent-tabpane .content {
+    -fx-background-color: transparent !important;
+}
+
+.transparent-tabpane .tab-content-area .content {
+    -fx-background-color: transparent !important;
+}
+
+/* 强制所有可能的背景为透明 */
+.transparent-tabpane * {
+    -fx-background-color: transparent !important;
+}
+
+.transparent-tabpane .tab-content-area * {
+    -fx-background-color: transparent !important;
+}
+
+/* 只保留必要的背景 */
+.transparent-tabpane .tab-header-area {
+    -fx-background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.transparent-tabpane .tab {
+    -fx-background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.transparent-tabpane .tab:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.8) !important;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="15" height="13" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="1">
+ <editorsettings>
+  <export target="home_map..tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="chair.tsx"/>
+ <tileset firstgid="2" source="table.tsx"/>
+ <tileset firstgid="3" source="cabinet.tsx"/>
+ <tileset firstgid="4" source="cabinet2.tsx"/>
+ <tileset firstgid="5" source="rug.tsx"/>
+ <tileset firstgid="6" source="chair.tsx"/>
+ <tileset firstgid="7" source="fireplace1.tsx"/>
+ <tileset firstgid="8" source="stool.tsx"/>
+ <tileset firstgid="9" source="fireplace2.tsx"/>
+ <layer id="1" name="bottom" width="15" height="13">
+  <data encoding="csv">
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+</data>
+ </layer>
+ <layer id="3" name="surface" width="15" height="13">
+  <data encoding="csv">
+0,3,4,0,4,0,0,0,7,0,4,0,0,4,3,
+3,9,9,0,4,9,4,9,7,8,7,2,7,3,2,
+3,3,9,0,9,9,0,4,6,4,9,0,7,9,3,
+9,8,0,0,0,2,4,7,9,6,0,0,0,0,6,
+0,0,7,0,7,3,0,2,0,0,7,0,9,7,0,
+0,9,0,3,3,0,0,0,0,7,7,3,0,9,0,
+3,7,3,9,4,7,0,0,3,9,0,7,0,9,0,
+0,0,8,0,0,4,4,0,3,8,0,4,0,4,6,
+9,2,7,0,9,0,9,7,9,3,7,0,7,0,9,
+6,4,0,0,0,0,0,9,3,0,0,0,0,4,3,
+9,0,9,0,9,9,0,2,4,0,9,8,9,7,0,
+3,4,0,0,3,9,0,7,0,0,4,0,6,9,0,
+8,2,9,0,3,0,3,0,4,9,6,9,0,3,4
+</data>
+ </layer>
+</map>

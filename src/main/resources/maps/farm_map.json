@@ -1,0 +1,121 @@
+{ "compressionlevel":-1,
+ "height":13,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+         "height":13,
+         "id":1,
+         "name":"below",
+         "opacity":0.9,
+         "type":"tilelayer",
+         "visible":true,
+         "width":15,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 3, 4, 0, 4, 0, 0, 0, 5, 0, 4, 0, 0, 4, 3,
+            3, 5, 5, 0, 4, 5, 4, 5, 5, 6, 5, 6, 5, 3, 7,
+            3, 3, 5, 0, 5, 5, 0, 4, 7, 4, 5, 0, 5, 5, 3,
+            5, 7, 0, 0, 0, 1, 4, 5, 5, 8, 0, 0, 0, 0, 7,
+            0, 0, 5, 0, 5, 3, 0, 8, 0, 0, 5, 0, 5, 5, 0,
+            8, 5, 0, 3, 3, 0, 0, 0, 0, 5, 5, 3, 0, 5, 0,
+            3, 5, 3, 5, 4, 5, 0, 0, 3, 5, 0, 5, 0, 5, 0,
+            0, 0, 1, 0, 0, 4, 4, 0, 3, 1, 0, 4, 0, 4, 1,
+            5, 7, 5, 0, 5, 0, 5, 5, 5, 3, 5, 0, 5, 0, 5,
+            7, 4, 0, 0, 0, 0, 0, 5, 3, 0, 0, 0, 0, 4, 3,
+            5, 0, 5, 0, 5, 5, 0, 8, 4, 0, 5, 7, 5, 5, 0,
+            3, 4, 0, 0, 3, 5, 0, 5, 0, 0, 4, 0, 1, 5, 0,
+            8, 8, 5, 4, 3, 4, 3, 0, 4, 5, 1, 5, 0, 3, 4],
+         "height":13,
+         "id":3,
+         "name":"surface",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":15,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.11.2",
+ "tileheight":40,
+ "tilesets":[
+        {
+         "columns":1,
+         "firstgid":1,
+         "image":"..\/..\/..\/..\/..\/..\/StardewBomberTiled\/bush1.png",
+         "imageheight":40,
+         "imagewidth":40,
+         "margin":0,
+         "name":"bush1",
+         "properties":[
+                {
+                 "name":"explorable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"solid",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"treat",
+                 "type":"bool",
+                 "value":false
+                }],
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":40,
+         "tilewidth":40
+        }, 
+        {
+         "firstgid":2,
+         "source":"E:\/StardewBomber-MyPart\/floor.tsx"
+        }, 
+        {
+         "firstgid":3,
+         "source":"E:\/StardewBomber-MyPart\/melon.tsx"
+        }, 
+        {
+         "firstgid":4,
+         "source":"E:\/StardewBomber-MyPart\/pumpkin.tsx"
+        }, 
+        {
+         "firstgid":5,
+         "source":"E:\/StardewBomber-MyPart\/stump.tsx"
+        }, 
+        {
+         "firstgid":6,
+         "source":"E:\/StardewBomber-MyPart\/bush1.tsx"
+        }, 
+        {
+         "firstgid":7,
+         "source":"E:\/StardewBomber-MyPart\/bush2.tsx"
+        }, 
+        {
+         "firstgid":8,
+         "source":"E:\/StardewBomber-MyPart\/bush3.tsx"
+        }],
+ "tilewidth":40,
+ "type":"map",
+ "version":"1.10",
+ "width":15
+}
